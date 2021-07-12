@@ -86,13 +86,13 @@ export default class extends React.Component<ScreenProps> {
     return (
       <View
         style={{
-          backgroundColor: "white",
+          backgroundColor: "blue",
           height: TAB_BAR_HEIGHT,
           borderTopColor: theme.lightGray,
-          borderTopWidth: 1,
-          paddingBottom: 24,
+          borderTopWidth: 2,
+          paddingBottom: 30,
 
-          paddingTop: 12,
+          paddingTop: 25,
           flexDirection: "row",
           justifyContent: "space-between",
           zIndex: 100,
